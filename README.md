@@ -22,7 +22,7 @@ Participated as a team "DSH-Beginners", the final evaluation ranking was 33rd / 
     - ランダムに明るさとコントラストを変える　RandomBrightnessContrast(brightness_limit=0.2, contrast_limit=0.2, p=0.5)
     - 弾性変形（歪ませる）　ElasticTransform(alpha=1, sigma=50, alpha_affine=50, interpolation=1, border_mode=4, p=0.5)
 
-- アーキテクチャは**[FPN](http://presentations.cocodataset.org/COCO17-Stuff-FAIR.pdf)**, エンコーダには**[EfficientNet-B5](https://hampen2929.hatenablog.com/entry/2019/07/06/024347)**を用い、クラス数は3クラス、入力チャネルを１として、**[ファインチューニング](https://www.kikagaku.ai/tutorial/basic_of_computer_vision/learn/tensorflow_finetuning)**を行いました。
+- アーキテクチャは**[FPN](http://presentations.cocodataset.org/COCO17-Stuff-FAIR.pdf)**, エンコーダには**[EfficientNet-b5](https://hampen2929.hatenablog.com/entry/2019/07/06/024347)**を用い、クラス数は3クラス、入力チャネルを１として、**[ファインチューニング](https://www.kikagaku.ai/tutorial/basic_of_computer_vision/learn/tensorflow_finetuning)**を行いました。
     - learning_rate : 0.001
     - weight decay: 0.0003
     - encoder_learning_rate : 0.0005
