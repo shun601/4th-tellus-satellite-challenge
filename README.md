@@ -39,3 +39,37 @@ Participated as a team "DSH-Beginners", the final evaluation ranking was 33rd / 
 - 推論では、LOGOで学習されたweightのベストパラメータをアンサンブルさせました。
 
 - public boardのスコアが26.7187758、private boardでのスコアが22.7821334となり、最終スコアが上がりました。過学習が抑えられたモデルが構築できていたと考えられます。
+
+## 参考文献
+### ディープラーニング手法
+セマンティックセグメンテーション https://speakerdeck.com/motokimura/semantic-segmentation-zhen-rifan-ri?slide=14  
+### 深層学習フレームワーク(PyTorch)
+PyTorch https://pytorch.org/  
+Catalyst(PyTorchのラッパーライブラリ) https://catalyst-team.github.io/catalyst/  
+### データ前処理
+Albumentations https://github.com/albumentations-team/albumentations  
+Albumentations サンプル集 https://qiita.com/kurilab/items/b69e1be8d0224ae139ad  
+### アーキテクチャ
+モデルのアーキテクチャ segmantation_models.pytorch https://github.com/qubvel/segmentation_models.pytorch  
+FPN解説 http://presentations.cocodataset.org/COCO17-Stuff-FAIR.pdf  
+FPN論文 https://arxiv.org/pdf/1612.03144.pdf  
+EfficientNet https://hampen2929.hatenablog.com/entry/2019/07/06/024347  
+### 転移学習、ファインチューニング
+転移学習 https://jp.mathworks.com/discovery/transfer-learning.html  
+ファインチューニング https://www.kikagaku.ai/tutorial/basic_of_computer_vision/learn/tensorflow_finetuning  
+### 最適化関数（Optimizer）
+RAdam https://qiita.com/omiita/items/d24568a835da6911b01e  
+### Label Smoothing
+Label Smoothing解説 https://deecode.net/?p=1229  
+### 交差検証
+Leave One Group Out(LOGO) https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.LeaveOneGroupOut.html  
+### Tensorboard
+Tensorboardの使い方 https://qiita.com/tetrar124/items/aa27b4d616c859860d02  
+### 学習コンテンツ
+衛星画像の分類 https://quest.signate.jp/quests/10019  
+Tellus e-learning https://tellusxdp.github.io/tellus-trainer/index.html  
+画像100本ノック https://github.com/yoyoyo-yo/Gasyori100knock  
+ゼロから作るディープラーニング-Pythonで学ぶディープラーニングの理論と実装 https://www.amazon.co.jp/dp/4873117585/  
+Udemy講座 「Hands Onで学ぶ PyTorchによる深層学習入門」 https://www.udemy.com/course/hands-on-pytorch/  
+「つくりながら学ぶ! PyTorchによる発展ディープラーニング」 https://www.amazon.co.jp/dp/4839970254  
+Yann LeCun教授によるディープラーニングの授業 https://atcold.github.io/pytorch-Deep-Learning/  
