@@ -30,7 +30,7 @@ Participated as a team "DSH-Beginners", the final evaluation ranking was 33rd / 
 - 損失関数(Loss)には、Dice, IoU, CEを使用し、以下の式で合計した損失関数を使用しました。
     - $IoU + Dice + 0.8*CE$.
 
-- 最適化関数(Optimizer)には**[RAdam](https://arxiv.org/abs/1908.03265)**を使用しました。
+- 最適化関数(Optimizer)には[RAdam](https://arxiv.org/abs/1908.03265)を使用しました。
 
 - 学習はGoogle ColabのGPUを使用しました。
 
