@@ -57,7 +57,7 @@ EfficientNet https://hampen2929.hatenablog.com/entry/2019/07/06/024347
 ### 転移学習、ファインチューニング
 転移学習 https://jp.mathworks.com/discovery/transfer-learning.html  
 ファインチューニング https://www.kikagaku.ai/tutorial/basic_of_computer_vision/learn/tensorflow_finetuning  
-### 最適化関数（Optimizer）
+### 最適化手法（Optimizer）
 RAdam https://qiita.com/omiita/items/d24568a835da6911b01e  
 ### Label Smoothing
 Label Smoothing解説 https://deecode.net/?p=1229  
