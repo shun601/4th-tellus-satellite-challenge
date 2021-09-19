@@ -6,6 +6,10 @@
 Pre-processing, train and predict code.  
 Participated as a team "DSH-Beginners", the final evaluation ranking was 33rd / 125th.
 
+- preprocess.ipynb : 前処理のコード
+- train.ipynb : 学習のコード
+- predict.ipynb : 推論のコード
+
 
 # アプローチ概要
 過去コンペ上位入賞者と同じくディープラーニングの[セマンティックセグメンテーション](https://speakerdeck.com/motokimura/semantic-segmentation-zhen-rifan-ri?slide=14)で取り組みました。
